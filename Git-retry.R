@@ -9,4 +9,5 @@ mtcars %>%
   ggplot(aes(mpg, disp)) +
   geom_point(color = "purple") +
   geom_smooth() +
-  labs(x = "Miles per Gallon", y = "Displacement")
+  labs(x = "Miles per Gallon", y = "Displacement") +
+  gghighlight(mpg < 20)
