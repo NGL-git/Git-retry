@@ -7,4 +7,4 @@ library(ggplot2)
 
 mtcars %>%
   ggplot(aes(mpg, disp)) +
-  geom_point()
+  geom_point(color = "purple")
