@@ -8,4 +8,5 @@ library(ggplot2)
 mtcars %>%
   ggplot(aes(mpg, disp)) +
   geom_point(color = "purple") +
-  geom_smooth()
+  geom_smooth() +
+  labs(x = "Miles per Gallon", y = "Displacement")
