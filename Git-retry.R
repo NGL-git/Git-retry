@@ -7,4 +7,5 @@ library(ggplot2)
 
 mtcars %>%
   ggplot(aes(mpg, disp)) +
-  geom_point(color = "purple")
+  geom_point(color = "purple") +
+  geom_smooth()
